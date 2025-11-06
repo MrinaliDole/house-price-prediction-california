@@ -11,6 +11,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+from pathlib import Path
 
 APP_DIR = Path(__file__).parent
 MODEL_PATH = APP_DIR / "xgboost_model.pkl"
