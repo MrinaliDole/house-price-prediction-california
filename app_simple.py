@@ -11,6 +11,8 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import xgboost as xgb
+
 from pathlib import Path
 
 APP_DIR = Path(__file__).parent
@@ -32,8 +34,8 @@ st.markdown("---")
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load('xgboost_model.pkl')
-        metadata = joblib.load('model_metadata.pkl')
+        model = joblib.load(MODEL_PATH)      # use robust path
+        metadata = joblib.load(META_PATH)    # use robust path
         return model, metadata
     except Exception as e:
         st.error(f"Error loading model: {e}")
@@ -121,16 +123,21 @@ if model is not None and metadata is not None:
 
             # Create DataFrame and align with training features
             input_df = pd.DataFrame([features])
-
             for col in metadata['feature_names']:
                 if col not in input_df.columns:
                     input_df[col] = 0
-
             input_df = input_df[metadata['feature_names']]
+            input_df = input_df.astype(np.float32)
 
-            # Predict (log scale) and back-transform
-            log_pred = model.predict(input_df)[0]
-            predicted_price = np.expm1(log_pred) * metadata['smearing_factor']
+            # Handle both Booster and sklearn-style models
+            if model.__class__.__name__ == "Booster":
+                dtest = xgb.DMatrix(input_df.values, feature_names=list(input_df.columns))
+                yhat = model.predict(dtest)
+            else:
+                yhat = model.predict(input_df)
+
+            log_pred = float(yhat[0])
+            predicted_price = np.expm1(log_pred) * metadata.get("smearing_factor", 1.0)
 
             # Display
             st.markdown("### 💰 Estimated Price")
@@ -150,8 +157,10 @@ if model is not None and metadata is not None:
         except Exception as e:
             st.error(f"Prediction error: {e}")
 
-    st.markdown("---")
-    st.info("💡 This simplified version uses default values for features not shown above.")
+        st.markdown("---")
+        st.info("💡 This simplified version uses default values for features not shown above.")
 
 else:
     st.error("❌ Model files not found in repository")
+
+    
