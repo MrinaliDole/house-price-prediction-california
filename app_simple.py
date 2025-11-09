@@ -198,9 +198,10 @@ if model is not None and metadata is not None:
             st.markdown("### 💰 Estimated Price")
             st.markdown(f"## ${predicted_price:,.0f}")
 
-else:
-    st.error(
-        "❌ Model components failed to load. Please check that "
-        "'xgboost_model.pkl' and 'model_metadata.pkl' are present."
+    else:
+        st.error(
+            "❌ Model components failed to load. Please check that "
+            "'xgboost_model.pkl' and 'model_metadata.pkl' are present."
     )
+
 
