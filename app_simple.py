@@ -198,30 +198,9 @@ if model is not None and metadata is not None:
             st.markdown("### 💰 Estimated Price")
             st.markdown(f"## ${predicted_price:,.0f}")
 
-            lower = predicted_price * 0.9
-            upper = predicted_price * 1.1
-            st.markdown(f"**Range:** ${lower:,.0f} - ${upper:,.0f}")
-
-            with st.expander("📊 Input Summary and Model Assumptions"):
-                st.write(f"Living Area: {living_area:,} sq ft")
-                st.write(f"Bedrooms: {beds}")
-                st.write(f"Bathrooms: {baths}")
-                st.write(f"Lot Size: {lot_size:,} sq ft")
-                st.caption(
-                    "*The model assumes default values like "
-                    "Year Built: 2000, 1 Story, 2 Garage Spaces, "
-                    "and Postal Code: 92101.*"
-                )
-
-        except Exception as e:
-            st.error(f"Prediction error: {e}")
-            st.exception(e)
-
-        st.markdown("---")
-        st.info("💡 This version uses default values for features not shown above.")
-
 else:
     st.error(
         "❌ Model components failed to load. Please check that "
         "'xgboost_model.pkl' and 'model_metadata.pkl' are present."
     )
+
