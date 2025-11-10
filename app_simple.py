@@ -144,7 +144,6 @@ if model is not None and metadata is not None:
     st.success("✅ Model and metadata loaded successfully!")
 
     st.markdown("### Enter Property Details")
-
     col1, col2 = st.columns(2)
 
     with col1:
@@ -183,7 +182,6 @@ if model is not None and metadata is not None:
 
     if st.button("🔮 Predict Price", type="primary", use_container_width=True):
         try:
-            # Use same logic as Colab helper
             predicted_price = predict_price_from_basic_features(
                 model=model,
                 metadata=metadata,
@@ -191,17 +189,19 @@ if model is not None and metadata is not None:
                 living_area=living_area,
                 baths=baths,
                 beds=beds,
-                year_built=2000,   # same default as notebook
-                postal_code="92101",  # default ZIP; can expose as input later
+                year_built=2000,
+                postal_code="92101",
             )
 
             st.markdown("### 💰 Estimated Price")
             st.markdown(f"## ${predicted_price:,.0f}")
 
-    else:
-        st.error(
-            "❌ Model components failed to load. Please check that "
-            "'xgboost_model.pkl' and 'model_metadata.pkl' are present."
+        except Exception as e:
+            st.error(f"Prediction error: {e}")
+            st.exception(e)
+
+else:
+    st.error(
+        "❌ Model components failed to load. Please check that "
+        "'xgboost_model.pkl' and 'model_metadata.pkl' are present."
     )
-
-
