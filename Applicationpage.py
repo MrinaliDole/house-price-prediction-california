@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import joblib
 import numpy as np
 import pandas as pd
@@ -6,11 +7,15 @@ import streamlit as st
 import xgboost as xgb
 
 # -----------------------------------------------------------------------------
-# Path Setup (Streamlit Cloud–safe)
+# Paths (Streamlit Cloud–friendly)
 # -----------------------------------------------------------------------------
-APP_DIR = Path.cwd()               # avoids __file__ issues
+APP_DIR = Path.cwd()
 MODEL_PATH = APP_DIR / "xgboost_model.pkl"
 META_PATH = APP_DIR / "model_metadata.pkl"
+GEO_PATH = APP_DIR / "city_zip_county_mapping.csv"
+
+# Default value for lot size (since we removed it from UI)
+DEFAULT_LOT_SIZE_SQFT = 6000.0
 
 # -----------------------------------------------------------------------------
 # Streamlit Page Config
@@ -18,15 +23,16 @@ META_PATH = APP_DIR / "model_metadata.pkl"
 st.set_page_config(
     page_title="California Property Price Prediction",
     page_icon="🏠",
-    layout="centered"
+    layout="centered",
 )
 
 st.title("🏠 California Property Price Prediction")
 st.caption("Provide key property details to estimate the market price.")
 st.markdown("---")
 
+
 # -----------------------------------------------------------------------------
-# Load Model + Metadata
+# Load model & metadata
 # -----------------------------------------------------------------------------
 @st.cache_resource
 def load_model():
@@ -36,17 +42,55 @@ def load_model():
         return model, metadata
     except FileNotFoundError as exc:
         st.error(
-            "Missing model files. Ensure 'xgboost_model.pkl' and 'model_metadata.pkl' "
-            "are in the same folder as this app."
+            "Missing model artifacts. Ensure 'xgboost_model.pkl' and "
+            "'model_metadata.pkl' are present in the app directory."
         )
         raise exc
     except Exception as exc:
         st.error(f"Error loading model: {exc}")
         raise exc
 
-model, metadata = load_model()
 
-st.success("✅ Model and metadata loaded successfully!")
+# -----------------------------------------------------------------------------
+# Load geography mapping (City → ZIP → County)
+# -----------------------------------------------------------------------------
+@st.cache_data
+def load_geography():
+    if not GEO_PATH.exists():
+        st.error(
+            "Missing geography mapping file 'city_zip_county_mapping.csv'. "
+            "Make sure it is in the same folder as this app."
+        )
+        return None, {}, {}
+
+    df = pd.read_csv(GEO_PATH, dtype=str, sep=None, engine="python")
+    # Normalize
+    df["city"] = df["city"].astype(str).str.strip()
+    df["zip"] = df["zip"].astype(str).str.strip()
+    df["county"] = df["county"].astype(str).str.strip()
+
+    # Build mapping dicts
+    city_to_zips = (
+        df.groupby("city")["zip"]
+        .apply(lambda s: sorted(s.unique()))
+        .to_dict()
+    )
+    zip_to_counties = (
+        df.groupby("zip")["county"]
+        .apply(lambda s: sorted(s.unique()))
+        .to_dict()
+    )
+
+    return df, city_to_zips, zip_to_counties
+
+
+model, metadata = load_model()
+geo_df, CITY_TO_ZIPS, ZIP_TO_COUNTY = load_geography()
+
+if geo_df is None:
+    st.stop()
+
+st.success("✅ Model, metadata, and geography mapping loaded. Ready to predict!")
 
 # -----------------------------------------------------------------------------
 # Prediction Logic
@@ -56,23 +100,26 @@ def predict_price(
     model,
     metadata,
     living_area: float,
-    lot_size_sqft: float,
     beds: float,
     baths: float,
     has_garage: bool,
-    garage_spaces: int,
-    postal_code: str | None,
+    has_pool: bool,
+    zip_code: str | None,
     city: str | None,
+    county: str | None,
+    lot_size_sqft: float = DEFAULT_LOT_SIZE_SQFT,
     year_built: int = 2000,
     current_year: int = 2025,
 ) -> float:
-
+    """
+    Align user inputs to model feature space and return predicted price.
+    """
     feature_names = metadata["feature_names"]
     smear = float(metadata.get("smearing_factor", 1.0))
 
-    # engineered features
+    # Engineered features
     property_age = current_year - year_built
-    property_age_squared = property_age ** 2
+    property_age_squared = property_age**2
     total_rooms = beds + baths
     bath_bed_ratio = baths / (beds + 0.1)
     sqft_per_bedroom = living_area / (beds + 0.1)
@@ -81,21 +128,21 @@ def predict_price(
     log_living_area = np.log1p(living_area)
     log_lot_size = np.log1p(lot_size_sqft)
 
-    # create model-aligned input vector
+    # Start with all-zero feature vector
     input_data = {col: 0.0 for col in feature_names}
 
-    def set_if_exists(name, value):
+    def set_if_exists(name: str, value: float | int):
         if name in input_data:
             input_data[name] = value
 
-    # base features
+    # Base numeric features
     set_if_exists("LivingArea", living_area)
     set_if_exists("LotSizeSquareFeet", lot_size_sqft)
     set_if_exists("BathroomsTotalInteger", baths)
     set_if_exists("BedroomsTotal", beds)
     set_if_exists("YearBuilt", year_built)
 
-    # engineered features
+    # Engineered numeric features
     set_if_exists("PropertyAge", property_age)
     set_if_exists("PropertyAge_squared", property_age_squared)
     set_if_exists("TotalRooms", total_rooms)
@@ -106,67 +153,119 @@ def predict_price(
     set_if_exists("log_LivingArea", log_living_area)
     set_if_exists("log_LotSizeSquareFeet", log_lot_size)
 
+    # Booleans / flags
     set_if_exists("HasGarage", int(has_garage))
-    set_if_exists("GarageSpaces", garage_spaces if has_garage else 0)
-    set_if_exists("HasPool", 0)
+    # Since we now only have Yes/No for garage, use a representative value
+    set_if_exists("GarageSpaces", 2 if has_garage else 0)
+    set_if_exists("HasPool", int(has_pool))
     set_if_exists("Stories", 1)
 
-    # ZIP / City One-Hot Encoding
-    if postal_code:
-        postal_code = str(postal_code).strip().replace(" ", "")
-        zip_col = f"PostalCode_{postal_code}"
+    # One-hot: ZIP code
+    if zip_code:
+        zip_code_clean = str(zip_code).strip()
+        zip_col = f"PostalCode_{zip_code_clean}"
         if zip_col in input_data:
             input_data[zip_col] = 1.0
 
+    # One-hot: City
     if city:
         city_col = f"City_{city}"
         if city_col in input_data:
             input_data[city_col] = 1.0
 
-    # finalize DF
+    # One-hot: County
+    if county:
+        county_col = f"CountyOrParish_{county}"
+        if county_col in input_data:
+            input_data[county_col] = 1.0
+
+    # Build DataFrame in correct column order
     input_df = pd.DataFrame([input_data], columns=feature_names).astype(np.float32)
 
-    # inference
-    if isinstance(model, xgb.Booster):
+    # XGBoost native booster or sklearn wrapper
+    if isinstance(model, xgb.Booster) or model.__class__.__name__ == "Booster":
         dtest = xgb.DMatrix(input_df, feature_names=feature_names)
         log_pred = float(model.predict(dtest)[0])
     else:
         log_pred = float(model.predict(input_df)[0])
 
+    # Inverse of log1p with smearing
     return float(np.expm1(log_pred) * smear)
 
-# -----------------------------------------------------------------------------
-# City List (Searchable Dropdown)
-# -----------------------------------------------------------------------------
-city_options = sorted([
-    name.replace("City_", "")
-    for name in metadata["feature_names"]
-    if name.startswith("City_")
-])
 
+# -----------------------------------------------------------------------------
+# UI: City → Zip Code → County + other property inputs
+# -----------------------------------------------------------------------------
+city_options = sorted(CITY_TO_ZIPS.keys())
 default_city_index = 0 if city_options else None
 
-# -----------------------------------------------------------------------------
-# UI Inputs
-# -----------------------------------------------------------------------------
 col1, col2 = st.columns(2)
 
 with col1:
-    living_area = st.number_input("Living Area (sq ft)", 300, 10000, 1800, step=50)
-    beds = st.number_input("Bedrooms", 1, 10, 3)
-    postal_code = st.text_input("Postal Code (e.g., 92101)", value="92101")
+    living_area = st.number_input(
+        "Living Area (sq ft)",
+        min_value=300,
+        max_value=10000,
+        value=1800,
+        step=50,
+    )
+    beds = st.number_input("Bedrooms", min_value=1, max_value=10, value=3, step=1)
+
     city = st.selectbox(
-        "City (Searchable)",
+        "City",
         options=city_options,
         index=default_city_index,
-        help="Search any California city used in the model."
+        help="Select the city where the property is located.",
     )
 
+    # Zip Code options depend on selected city
+    zip_options = CITY_TO_ZIPS.get(city, [])
+    if not zip_options:
+        zip_code = None
+        county = None
+        st.warning("No ZIP codes found for this city in the mapping.")
+    else:
+        zip_code = st.selectbox(
+            "Zip Code",
+            options=zip_options,
+            help="Zip codes available for the selected city.",
+        )
+
+        # County options depend on selected ZIP
+        county_options = ZIP_TO_COUNTY.get(zip_code, [])
+        if not county_options:
+            county = None
+            st.warning("No counties found for this ZIP code in the mapping.")
+        else:
+            county = st.selectbox(
+                "County",
+                options=county_options,
+                help="County inferred from the selected ZIP code.",
+            )
+
 with col2:
-    baths = st.number_input("Bathrooms", 1.0, 10.0, 2.0, step=0.5)
-    lot_size = st.number_input("Lot Size (sq ft)", 500, 120000, 6000)
-    has_garage = st.checkbox("Garage Available", value=True)
-    garage_spaces = st.slider("Garage Spaces", 0, 5, 2, disabled=not has_garage)
+    baths = st.number_input(
+        "Bathrooms",
+        min_value=1.0,
+        max_value=10.0,
+        value=2.0,
+        step=0.5,
+    )
+
+    has_garage_str = st.selectbox(
+        "Garage Available",
+        options=["Yes", "No"],
+        index=0,
+    )
+    has_garage = has_garage_str == "Yes"
+
+    has_pool_str = st.selectbox(
+        "Swimming Pool",
+        options=["No", "Yes"],
+        index=0,
+        help="Select 'Yes' if the property has a swimming pool.",
+    )
+    has_pool = has_pool_str == "Yes"
 
 st.markdown("---")
 
@@ -179,17 +278,18 @@ if st.button("🔮 Predict Price", type="primary", use_container_width=True):
             model=model,
             metadata=metadata,
             living_area=living_area,
-            lot_size_sqft=lot_size,
             beds=beds,
             baths=baths,
             has_garage=has_garage,
-            garage_spaces=garage_spaces,
-            postal_code=postal_code,
+            has_pool=has_pool,
+            zip_code=zip_code,
             city=city,
+            county=county,
+            lot_size_sqft=DEFAULT_LOT_SIZE_SQFT,
         )
 
         st.markdown("### 💰 Estimated Market Price")
         st.markdown(f"## **${predicted_price:,.0f}**")
 
     except Exception as exc:
-        st.error(f"❌ Prediction error: {exc}")
+        st.error(f"Prediction error: {exc}")
