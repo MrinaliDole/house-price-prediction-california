@@ -1,0 +1,1763 @@
+city,zip,county
+Rosamond,93560,Kern
+Oak Hills,92344,San Bernardino
+Wildomar,92595,Riverside
+La Jolla,92037,San Diego
+San Marcos,92078,San Diego
+Redlands,92373,San Bernardino
+Lake Forest,92630,Orange
+Hermosa Beach,90254,Los Angeles
+Los Angeles,90402,Los Angeles
+Fountain Valley,92708,Orange
+Pasadena,91103,Los Angeles
+San Mateo,94401,San Mateo
+Orange,92865,Orange
+Tustin,92780,Orange
+San Jose,95124,Santa Clara
+Malibu,90265,Los Angeles
+Los Angeles,90002,Los Angeles
+Valley Village,91607,Los Angeles
+Winnetka,91306,Los Angeles
+Lakeport,95453,Lake
+Palm Desert,92211,Riverside
+Irvine,92620,Orange
+Newport Beach,92660,Orange
+Atascadero,93422,San Luis Obispo
+Los Angeles,90020,Los Angeles
+Los Angeles,90028,Los Angeles
+Los Angeles,90005,Los Angeles
+Rancho Mirage,92270,Riverside
+Encino,91316,Los Angeles
+Northridge,91324,Los Angeles
+Morgan Hill,95037,Santa Clara
+Saugus,91390,Los Angeles
+Stanton,90680,Orange
+Santa Cruz,95062,Santa Cruz
+Carmel Valley,92130,San Diego
+Costa Mesa,92626,Orange
+Poway,92064,San Diego
+Santa Ana,92707,Orange
+Palm Springs,92264,Riverside
+Los Angeles,90066,Los Angeles
+Temple City,91780,Los Angeles
+San Diego,92111,San Diego
+Danville,94526,Contra Costa
+West Hollywood,90069,Los Angeles
+Sherman Oaks,91403,Los Angeles
+Paso Robles,93446,San Luis Obispo
+North Hollywood,91601,Los Angeles
+La Canada Flintridge,91011,Los Angeles
+San Jose,95120,Santa Clara
+San Francisco,94110,San Francisco
+Campbell,95008,Santa Clara
+Los Angeles,90064,Los Angeles
+Tujunga,91042,Los Angeles
+Los Angeles,90041,Los Angeles
+Toluca Lake,91602,Los Angeles
+Beverly Hills,90211,Los Angeles
+Los Angeles,90016,Los Angeles
+Irvine,92614,Orange
+Rancho Cucamonga,91701,San Bernardino
+Palm Springs,92262,Riverside
+Redwood City,94062,San Mateo
+Los Angeles,90032,Los Angeles
+Orange,92867,Orange
+Glendale,91205,Los Angeles
+Vista,92084,San Diego
+Santa Monica,90403,Los Angeles
+San Diego,92117,San Diego
+Chula Vista,91911,San Diego
+Redondo Beach,90277,Los Angeles
+Yucaipa,92399,San Bernardino
+Los Angeles,90004,Los Angeles
+San Diego,92116,San Diego
+West Hills,91304,Los Angeles
+Laguna Beach,92651,Orange
+Orange,92869,Orange
+Canyon Country,91351,Los Angeles
+Ramona,92065,San Diego
+Torrance,90505,Los Angeles
+Paradise,95969,Butte
+Irvine,92603,Orange
+Culver City,90232,Los Angeles
+Long Beach,90803,Los Angeles
+Baldwin Park,91706,Los Angeles
+Santa Clara,95051,Santa Clara
+Santa Maria,93454,Santa Barbara
+Loma Linda,92354,San Bernardino
+Burbank,91505,Los Angeles
+Los Angeles,90042,Los Angeles
+Chula Vista,91914,San Diego
+Vallejo,94590,Solano
+Reseda,91335,Los Angeles
+Norwalk,90650,Los Angeles
+San Diego,92154,San Diego
+Menlo Park,94025,San Mateo
+Valencia,91354,Los Angeles
+Agoura Hills,91301,Los Angeles
+Los Angeles,90015,Los Angeles
+Mountain View,94043,Santa Clara
+South Gate,90280,Los Angeles
+Rancho Santa Fe,92067,San Diego
+Buellton,93427,Santa Barbara
+San Jose,95126,Santa Clara
+San Diego,92130,San Diego
+Tarzana,91356,Los Angeles
+Dana Point,92629,Orange
+Huntington Beach,92647,Orange
+Temecula,92592,Riverside
+Santa Ana,92703,Orange
+Rialto,92376,San Bernardino
+Bellflower,90706,Los Angeles
+Long Beach,90807,Los Angeles
+Oceanside,92057,San Diego
+San Jose,95132,Santa Clara
+Santa Monica,90405,Los Angeles
+Alhambra,91801,Los Angeles
+Walnut Creek,94595,Contra Costa
+La Habra,90631,Orange
+Seal Beach,90740,Orange
+Chula Vista,91913,San Diego
+Beverly Hills,90212,Los Angeles
+San Diego,92131,San Diego
+Lancaster,93535,Los Angeles
+Walnut,91789,Los Angeles
+San Jose,95112,Santa Clara
+Glendora,91741,Los Angeles
+Los Angeles,90019,Los Angeles
+Glendale,91203,Los Angeles
+North Hollywood,91606,Los Angeles
+Santa Monica,90404,Los Angeles
+Irvine,92606,Orange
+Arcadia,91006,Los Angeles
+Corona Del Mar,92657,Orange
+San Diego,92109,San Diego
+Whittier,90601,Los Angeles
+Rancho Palos Verdes,90275,Los Angeles
+Rosemead,91770,Los Angeles
+Torrance,90503,Los Angeles
+Port Hueneme,93041,Ventura
+West Hills,91307,Los Angeles
+Valencia,91355,Los Angeles
+Canyon Lake,92587,Riverside
+Encinitas,92024,San Diego
+Corona,92882,Riverside
+Montclair,91763,San Bernardino
+Diamond Bar,91765,Los Angeles
+Mission Viejo,92691,Orange
+San Diego,92108,San Diego
+Westminster,92683,Orange
+Corona Del Mar,92625,Orange
+Orland,95963,Glenn
+Oxnard,93036,Ventura
+Costa Mesa,92627,Orange
+Lemon Grove,91945,San Diego
+Whittier,90602,Los Angeles
+Duarte,91010,Los Angeles
+Glendale,91214,Los Angeles
+San Juan Capistrano,92675,Orange
+National City,91950,San Diego
+Pacific Palisades,90272,Los Angeles
+Santa Monica,90402,Los Angeles
+Garden Grove,92840,Orange
+Rolling Hills,90274,Los Angeles
+Seaside,93955,Monterey
+Monrovia,91016,Los Angeles
+Saratoga,95070,Santa Clara
+Chino,91708,San Bernardino
+Pleasant Hill,94523,Contra Costa
+Culver City,90230,Los Angeles
+Del Mar,92014,San Diego
+Altadena,91001,Los Angeles
+Newport Beach,92663,Orange
+Whittier,90604,Los Angeles
+Granada Hills,91344,Los Angeles
+Chula Vista,91910,San Diego
+Huntington Beach,92646,Orange
+Anaheim Hills,92807,Orange
+Midway City,92655,Orange
+Claremont,91711,Los Angeles
+Lake Elsinore,92532,Riverside
+Irvine,92612,Orange
+Covina,91724,Los Angeles
+Oxnard,93030,Ventura
+Los Angeles,90035,Los Angeles
+San Jose,95121,Santa Clara
+Moraga,94556,Contra Costa
+Anaheim,92804,Orange
+Redondo Beach,90278,Los Angeles
+Carmel,93921,Monterey
+Carlsbad,92009,San Diego
+Ladera Ranch,92694,Orange
+San Bernardino,92405,San Bernardino
+Huntington Beach,92648,Orange
+Burbank,91502,Los Angeles
+Carlsbad,92008,San Diego
+Los Angeles,90001,Los Angeles
+Burlingame,94010,San Mateo
+Palos Verdes Estates,90274,Los Angeles
+Compton,90222,Los Angeles
+Murrieta,92562,Riverside
+Walnut Creek,94598,Contra Costa
+Westlake Village,91362,Ventura
+Newport Beach,92662,Orange
+Merced,95348,Merced
+Irvine,92602,Orange
+California City,93505,Kern
+San Diego,92122,San Diego
+San Diego,92126,San Diego
+Los Angeles,90034,Los Angeles
+Long Beach,90805,Los Angeles
+Orinda,94563,Contra Costa
+Lawndale,90260,Los Angeles
+Carlsbad,92010,San Diego
+Los Angeles,91401,Los Angeles
+Simi Valley,93065,Ventura
+Los Angeles,90026,Los Angeles
+Santa Barbara,93108,Santa Barbara
+San Diego,92120,San Diego
+Glendale,91207,Los Angeles
+La Crescenta,91214,Los Angeles
+Los Angeles,90049,Los Angeles
+Carlsbad,92011,San Diego
+Ventura,93001,Ventura
+Los Altos,94022,Santa Clara
+Cherry Valley,92223,Riverside
+San Diego,92128,San Diego
+Compton,90220,Los Angeles
+Los Angeles,90008,Los Angeles
+Indio,92201,Riverside
+San Diego,92103,San Diego
+Upland,91784,San Bernardino
+Santa Ana,92704,Orange
+Los Angeles,90007,Los Angeles
+Encino,91436,Los Angeles
+Marina Del Rey,90292,Los Angeles
+Grover Beach,93433,San Luis Obispo
+Hacienda Heights,91745,Los Angeles
+Santa Cruz,95060,Santa Cruz
+Los Angeles,90024,Los Angeles
+La Quinta,92253,Riverside
+San Jose,95123,Santa Clara
+La Palma,90623,Orange
+San Diego,92105,San Diego
+Pasadena,91106,Los Angeles
+Kingsburg,93631,Fresno
+Upland,91786,San Bernardino
+Escondido,92027,San Diego
+Venice,90291,Los Angeles
+Los Angeles,90068,Los Angeles
+Riverside,92508,Riverside
+Yorba Linda,92886,Orange
+Aliso Viejo,92656,Orange
+Los Angeles,90045,Los Angeles
+Escondido,92025,San Diego
+Newport Beach,92661,Orange
+Tustin,92782,Orange
+Redwood City,94061,San Mateo
+Jurupa Valley,92509,Riverside
+Sherman Oaks,91411,Los Angeles
+Fullerton,92835,Orange
+Ventura,93003,Ventura
+Ontario,91762,San Bernardino
+Burbank,91501,Los Angeles
+Bakersfield,93306,Kern
+Brentwood,94513,Contra Costa
+San Mateo,94402,San Mateo
+Menifee,92585,Riverside
+Eastvale,92880,Riverside
+Playa Vista,90094,Los Angeles
+Half Moon Bay,94019,San Mateo
+Thousand Oaks,91360,Ventura
+Palmdale,93552,Los Angeles
+Arleta,91331,Los Angeles
+Morro Bay,93442,San Luis Obispo
+Sunnyvale,94089,Santa Clara
+San Diego,92101,San Diego
+Los Angeles,90065,Los Angeles
+Pomona,91767,Los Angeles
+Torrance,90501,Los Angeles
+San Clemente,92673,Orange
+San Dimas,91773,Los Angeles
+Crestline,92325,San Bernardino
+Lake Forest,92610,Orange
+Torrance,90502,Los Angeles
+Los Angeles,90027,Los Angeles
+Concord,94518,Contra Costa
+Rancho Cucamonga,91730,San Bernardino
+Saugus,91350,Los Angeles
+San Clemente,92672,Orange
+Bloomington,92316,San Bernardino
+Kelseyville,95451,Lake
+Irvine,92618,Orange
+Glendale,91202,Los Angeles
+Rancho Santa Margarita,92688,Orange
+Cypress,90630,Orange
+Buena Park,90620,Orange
+Mission Viejo,92692,Orange
+Placentia,92870,Orange
+Ontario,91764,San Bernardino
+Perris,92570,Riverside
+Laguna Niguel,92677,Orange
+Oceanside,92054,San Diego
+Winchester,92596,Riverside
+Tracy,95376,San Joaquin
+Bakersfield,93307,Kern
+Cerritos,90703,Los Angeles
+Beverly Hills,90210,Los Angeles
+Burbank,91504,Los Angeles
+Pacific Grove,93950,Monterey
+West Hollywood,90046,Los Angeles
+Los Angeles,90031,Los Angeles
+Marina,93933,Monterey
+Porter Ranch,91326,Los Angeles
+Indio,92203,Riverside
+Woodland Hills,91364,Los Angeles
+Camarillo,93010,Ventura
+Ventura,93004,Ventura
+Bell Gardens,90201,Los Angeles
+Northridge,91325,Los Angeles
+Carson,90745,Los Angeles
+Santa Ana,92701,Orange
+Van Nuys,91405,Los Angeles
+Inglewood,90303,Los Angeles
+North Hollywood,91605,Los Angeles
+Garden Grove,92845,Orange
+Manhattan Beach,90266,Los Angeles
+San Jose,95125,Santa Clara
+Long Beach,90802,Los Angeles
+Long Beach,90808,Los Angeles
+Los Angeles,90025,Los Angeles
+Los Angeles,90293,Los Angeles
+West Hollywood,90048,Los Angeles
+San Mateo,94403,San Mateo
+San Diego,92127,San Diego
+Garden Grove,92841,Orange
+Orange,92868,Orange
+San Diego,92129,San Diego
+El Cajon,92021,San Diego
+Solana Beach,92075,San Diego
+Simi Valley,93063,Ventura
+Pasadena,91104,Los Angeles
+Moreno Valley,92553,Riverside
+Hercules,94547,Contra Costa
+Northridge,91343,Los Angeles
+Lakeside,92040,San Diego
+Long Beach,90804,Los Angeles
+Santa Cruz,95065,Santa Cruz
+Sunnyvale,94085,Santa Clara
+Los Angeles,90048,Los Angeles
+Concord,94521,Contra Costa
+Yucca Valley,92284,San Bernardino
+Hesperia,92345,San Bernardino
+Oceanside,92056,San Diego
+Murrieta,92563,Riverside
+Los Alamitos,90720,Orange
+Irvine,92604,Orange
+Fontana,92336,San Bernardino
+San Pedro,90732,Los Angeles
+San Diego,92115,San Diego
+Riverside,92503,Riverside
+San Diego,92119,San Diego
+Fallbrook,92028,San Diego
+Anaheim,92805,Orange
+Fontana,92335,San Bernardino
+South Pasadena,91030,Los Angeles
+North Hollywood,91602,Los Angeles
+Rossmoor,90720,Orange
+Arcadia,91007,Los Angeles
+Thousand Oaks,91362,Ventura
+Anaheim,92806,Orange
+Delano,93215,Kern
+Van Nuys,91401,Los Angeles
+Lompoc,93436,Santa Barbara
+Rancho Cucamonga,91737,San Bernardino
+Sylmar,91342,Los Angeles
+Pacheco,94553,Contra Costa
+Los Angeles,90046,Los Angeles
+La Mirada,90638,Los Angeles
+Chino,91709,San Bernardino
+Chowchilla,93610,Madera
+San Jacinto,92582,Riverside
+Studio City,91604,Los Angeles
+Los Altos Hills,94022,Santa Clara
+Temescal Valley,92883,Riverside
+El Cerrito,94530,Contra Costa
+Spring Valley,91977,San Diego
+San Diego,92104,San Diego
+Glendale,91201,Los Angeles
+Los Angeles,90038,Los Angeles
+San Diego,92113,San Diego
+Laguna Hills,92653,Orange
+Pacoima,91331,Los Angeles
+Inglewood,90302,Los Angeles
+Banning,92220,Riverside
+West Covina,91792,Los Angeles
+Ontario,91761,San Bernardino
+Huntington Park,90255,Los Angeles
+Riverside,92507,Riverside
+Glendale,91206,Los Angeles
+Los Angeles,90039,Los Angeles
+El Cajon,92020,San Diego
+Los Angeles,90094,Los Angeles
+Buena Park,90621,Orange
+Newhall,91321,Los Angeles
+Downey,90241,Los Angeles
+Pittsburg,94565,Contra Costa
+Coachella,92236,Riverside
+Montebello,90640,Los Angeles
+Salinas,93908,Monterey
+Bakersfield,93312,Kern
+Turlock,95380,Stanislaus
+Chino,91710,San Bernardino
+Los Angeles,90012,Los Angeles
+El Monte,91731,Los Angeles
+Hawthorne,90250,Los Angeles
+Los Angeles,90006,Los Angeles
+Studio City,91602,Los Angeles
+Westlake Village,91361,Ventura
+Camarillo,93012,Ventura
+Los Angeles,90037,Los Angeles
+Coronado,92118,San Diego
+Apple Valley,92308,San Bernardino
+Newbury Park,91320,Ventura
+Hemet,92545,Riverside
+Los Osos,93402,San Luis Obispo
+Lafayette,94549,Contra Costa
+Hesperia,92344,San Bernardino
+Inglewood,90301,Los Angeles
+Vacaville,95687,Solano
+Pacifica,94044,San Mateo
+Alamo,94507,Contra Costa
+Los Altos,94024,Santa Clara
+Santee,92071,San Diego
+Atherton,94027,San Mateo
+Santa Clara,95050,Santa Clara
+Lomita,90717,Los Angeles
+Palm Desert,92260,Riverside
+Riverside,92504,Riverside
+Monterey Park,91754,Los Angeles
+Canoga Park,91303,Los Angeles
+Redlands,92374,San Bernardino
+Corona,92879,Riverside
+Rancho Cucamonga,91739,San Bernardino
+Westlake Village,91361,Los Angeles
+Pomona,91766,Los Angeles
+Oroville,95965,Butte
+Fullerton,92831,Orange
+Apple Valley,92307,San Bernardino
+Escondido,92029,San Diego
+San Diego,92107,San Diego
+Garden Grove,92844,Orange
+Mountain Center,92561,Riverside
+Lake Arrowhead,92352,San Bernardino
+Riverside,92501,Riverside
+San Bernardino,92404,San Bernardino
+Capitola,95010,Santa Cruz
+Perris,92571,Riverside
+Victorville,92392,San Bernardino
+Pine Mountain Club,93222,Kern
+Santa Ana,92705,Orange
+Los Angeles,90036,Los Angeles
+Concord,94519,Contra Costa
+San Gabriel,91776,Los Angeles
+Suisun City,94585,Solano
+Discovery Bay,94505,Contra Costa
+Monterey Park,91755,Los Angeles
+Eagle Rock,90041,Los Angeles
+Inglewood,90305,Los Angeles
+Woodland Hills,91367,Los Angeles
+Garden Grove,92843,Orange
+Santa Barbara,93101,Santa Barbara
+South El Monte,91733,Los Angeles
+Menifee,92586,Riverside
+San Jose,95118,Santa Clara
+Cathedral City,92234,Riverside
+Azusa,91702,Los Angeles
+Adelanto,92301,San Bernardino
+Lakewood,90712,Los Angeles
+Paramount,90723,Los Angeles
+Panorama City,91402,Los Angeles
+West Covina,91791,Los Angeles
+Long Beach,90815,Los Angeles
+San Bruno,94066,San Mateo
+Whitewater,92282,Riverside
+Walnut Creek,94596,Contra Costa
+Cupertino,95014,Santa Clara
+Beaumont,92223,Riverside
+Los Angeles,90047,Los Angeles
+San Martin,95046,Santa Clara
+Walnut Creek,94597,Contra Costa
+Brea,92823,Orange
+Fullerton,92833,Orange
+Burbank,91506,Los Angeles
+Desert Hot Springs,92240,Riverside
+San Diego,92139,San Diego
+Sierra Madre,91024,Los Angeles
+San Ramon,94582,Contra Costa
+Van Nuys,91406,Los Angeles
+Harbor City,90710,Los Angeles
+Martinez,94553,Contra Costa
+Walnut Park,90255,Los Angeles
+Antioch,94531,Contra Costa
+Rolling Hills Estates,90275,Los Angeles
+Mountain View,94040,Santa Clara
+Rancho Mission Viejo,92694,Orange
+San Francisco,94124,San Francisco
+Hemet,92544,Riverside
+San Carlos,94070,San Mateo
+Chico,95926,Butte
+Covina,91722,Los Angeles
+Oxnard,93035,Ventura
+San Diego,92106,San Diego
+Rowland Heights,91748,Los Angeles
+Lake Elsinore,92530,Riverside
+Chino Hills,91709,San Bernardino
+Danville,94506,Contra Costa
+San Diego,92102,San Diego
+Highland,92346,San Bernardino
+Oakley,94561,Contra Costa
+Riverside,92506,Riverside
+Sherman Oaks,91423,Los Angeles
+Vista,92083,San Diego
+Palo Alto,94301,Santa Clara
+Clearlake Oaks,95423,Lake
+Los Angeles,90062,Los Angeles
+San Jose,95117,Santa Clara
+San Jose,95129,Santa Clara
+South San Francisco,94080,San Mateo
+Scotts Valley,95066,Santa Cruz
+Los Angeles,90011,Los Angeles
+Oxnard,93033,Ventura
+North Tustin,92705,Orange
+Sunland,91040,Los Angeles
+Merced,95340,Merced
+Homeland,92548,Riverside
+Menifee,92584,Riverside
+Hemet,92543,Riverside
+Escondido,92026,San Diego
+Phillips Ranch,91766,Los Angeles
+Lancaster,93534,Los Angeles
+Shadow Hills,91040,Los Angeles
+San Luis Obispo,93401,San Luis Obispo
+Santa Clara,95054,Santa Clara
+Gilroy,95020,Santa Clara
+Middletown,95461,Lake
+San Diego,92124,San Diego
+Santa Barbara,93105,Santa Barbara
+Pasadena,91107,Los Angeles
+Concord,94520,Contra Costa
+Desert Hot Springs,92241,Riverside
+Long Beach,90814,Los Angeles
+San Jose,95122,Santa Clara
+Pinon Hills,92372,San Bernardino
+West Covina,91790,Los Angeles
+Palmdale,93551,Los Angeles
+Covina,91723,Los Angeles
+Richmond,94801,Contra Costa
+Hanford,93230,Kings
+Dana Point,92624,Orange
+Colton,92324,San Bernardino
+Los Angeles,90022,Los Angeles
+Mariposa,95338,Mariposa
+Gardena,90247,Los Angeles
+Lakewood,90715,Los Angeles
+Pomona,91768,Los Angeles
+Oroville,95966,Butte
+Llano,93544,Los Angeles
+La Mesa,91942,San Diego
+Los Angeles,90069,Los Angeles
+Lafayette,94595,Contra Costa
+Palo Alto,94306,Santa Clara
+Tehachapi,93561,Kern
+Anaheim,92807,Orange
+Highland Park,90042,Los Angeles
+Brea,92821,Orange
+Moreno Valley,92551,Riverside
+Alhambra,91803,Los Angeles
+Vista,92081,San Diego
+El Dorado Hills,95762,El Dorado
+San Diego,92123,San Diego
+Victorville,92394,San Bernardino
+Chico,95928,Butte
+San Fernando,91340,Los Angeles
+Santa Paula,93060,Ventura
+Canyon Country,91387,Los Angeles
+Sky Valley,92241,Riverside
+San Jacinto,92583,Riverside
+Monte Sereno,95030,Santa Clara
+Indian Wells,92210,Riverside
+Pebble Beach,93953,Monterey
+Antioch,94509,Contra Costa
+Bonita,91902,San Diego
+Lakewood,90713,Los Angeles
+Foster City,94404,San Mateo
+Anaheim Hills,92808,Orange
+Los Angeles,91604,Los Angeles
+Long Beach,90806,Los Angeles
+Sunnyvale,94086,Santa Clara
+San Pedro,90731,Los Angeles
+Los Angeles,90077,Los Angeles
+Aptos,95003,Santa Cruz
+La Verne,91750,Los Angeles
+Los Gatos,95030,Santa Clara
+Chico,95973,Butte
+Copperopolis,95228,Calaveras
+Valley Glen,91401,Los Angeles
+Calabasas,91302,Los Angeles
+Commerce,90040,Los Angeles
+Huntington Beach,92649,Orange
+El Segundo,90245,Los Angeles
+Artesia,90701,Los Angeles
+Playa Del Rey,90293,Los Angeles
+Fontana,92337,San Bernardino
+Antelope,95843,Sacramento
+Moorpark,93021,Ventura
+Thousand Oaks,91320,Ventura
+El Cajon,92019,San Diego
+Watsonville,95076,Santa Cruz
+Salinas,93905,Monterey
+Coalinga,93210,Fresno
+Los Angeles,90059,Los Angeles
+Whittier,90605,Los Angeles
+Mentone,92359,San Bernardino
+San Diego,92110,San Diego
+Sacramento,95828,Sacramento
+Long Beach,90810,Los Angeles
+Temecula,92591,Riverside
+Sherman Oaks,91401,Los Angeles
+Victorville,92395,San Bernardino
+Salinas,93901,Monterey
+Carmel,93923,Monterey
+Newport Coast,92657,Orange
+Santa Maria,93455,Santa Barbara
+Modesto,95355,Stanislaus
+Palmdale,93550,Los Angeles
+Atwater,95301,Merced
+Corona,92883,Riverside
+San Gabriel,91775,Los Angeles
+Pasadena,91105,Los Angeles
+Alpine,91901,San Diego
+Anaheim,92801,Orange
+Bakersfield,93311,Kern
+San Jose,95136,Santa Clara
+El Sobrante,94803,Contra Costa
+Fresno,93711,Fresno
+Greenfield,93927,Monterey
+Blythe,92225,Riverside
+Lancaster,93536,Los Angeles
+Napa,94558,Napa
+Rio Vista,94571,Solano
+San Ysidro,92173,San Diego
+San Jose,95110,Santa Clara
+San Bernardino,92407,San Bernardino
+Redwood City,94063,San Mateo
+San Jose,95131,Santa Clara
+Los Angeles,90056,Los Angeles
+Fullerton,92832,Orange
+Los Gatos,95032,Santa Clara
+Sun Valley,91352,Los Angeles
+Riverside,92509,Riverside
+Phelan,92371,San Bernardino
+Bradley,93426,San Luis Obispo
+Richmond,94804,Contra Costa
+El Monte,91732,Los Angeles
+Torrance,90504,Los Angeles
+El Sereno,90032,Los Angeles
+Big Bear,92314,San Bernardino
+San Pablo,94806,Contra Costa
+Anza,92539,Riverside
+Bakersfield,93314,Kern
+San Jose,95135,Santa Clara
+Calexico,92231,Imperial
+Riverside,92505,Riverside
+Milpitas,95035,Santa Clara
+San Ramon,94583,Contra Costa
+San Diego,92114,San Diego
+Oak View,93022,Ventura
+Glendora,91740,Los Angeles
+Pearblossom,93553,Los Angeles
+Commerce,90023,Los Angeles
+San Marino,91108,Los Angeles
+Sacramento,95823,Sacramento
+Corona,92878,Riverside
+Pico Rivera,90660,Los Angeles
+Woodland Hills,91303,Los Angeles
+Monterey,93940,Monterey
+South Lake Tahoe,96150,El Dorado
+San Jose,95133,Santa Clara
+Norco,92860,Riverside
+Big Bear Lake,92315,San Bernardino
+Rodeo,94572,Contra Costa
+Rolling Hills Estates,90274,Los Angeles
+Moreno Valley,92555,Riverside
+Landers,92285,San Bernardino
+El Granada,94018,San Mateo
+Jurupa Valley,91752,Riverside
+Jamul,91935,San Diego
+San Luis Obispo,93405,San Luis Obispo
+Lynwood,90262,Los Angeles
+Corona,92881,Riverside
+Los Angeles,90043,Los Angeles
+Manteca,95337,San Joaquin
+San Francisco,94131,San Francisco
+Cabazon,92230,Riverside
+Carson,90810,Los Angeles
+Los Angeles,90044,Los Angeles
+San Jose,95127,Santa Clara
+Imperial Beach,91932,San Diego
+San Bernardino,92410,San Bernardino
+Orange,92866,Orange
+Gardena,90249,Los Angeles
+King City,93930,Monterey
+La Mesa,91941,San Diego
+Grand Terrace,92313,San Bernardino
+Calabasas,91301,Los Angeles
+Anaheim,92808,Orange
+Fresno,93728,Fresno
+San Jose,95130,Santa Clara
+Joshua Tree,92252,San Bernardino
+Whittier,90606,Los Angeles
+Lake Forest,92679,Orange
+Los Angeles,90003,Los Angeles
+Oceanside,92058,San Diego
+Nipomo,93444,San Luis Obispo
+Coulterville,95311,Mariposa
+Loma Linda,92373,San Bernardino
+Manteca,95336,San Joaquin
+San Marcos,92069,San Diego
+Cambria,93428,San Luis Obispo
+Portola Valley,94028,San Mateo
+Rancho Santa Margarita,92679,Orange
+Long Beach,90813,Los Angeles
+Valley Village,91602,Los Angeles
+San Diego,92037,San Diego
+Lake Balboa,91406,Los Angeles
+Lakeview Terrace,91342,Los Angeles
+El Centro,92243,Imperial
+Coarsegold,93614,Madera
+Whittier,90603,Los Angeles
+Nice,95464,Lake
+Temecula,92590,Riverside
+Fresno,93730,Fresno
+French Valley,92596,Riverside
+Wrightwood,92397,San Bernardino
+Berry Creek,95916,Butte
+Daly City,94014,San Mateo
+Big Bear City,92314,San Bernardino
+San Diego,91932,San Diego
+Santa Maria,93458,Santa Barbara
+Lucerne Valley,92356,San Bernardino
+Arroyo Grande,93420,San Luis Obispo
+Del Cerro,92120,San Diego
+Stockton,95209,San Joaquin
+San Fernando,91345,Los Angeles
+Downey,90242,Los Angeles
+San Jose,95148,Santa Clara
+Los Angeles,90069,Other
+Belmont,94002,San Mateo
+Richmond,94803,Contra Costa
+North Hills,91343,Los Angeles
+Stevenson Ranch,91381,Los Angeles
+Benicia,94510,Solano
+San Jose,95116,Santa Clara
+Leona Valley,93551,Los Angeles
+San Francisco,94134,San Francisco
+Vallejo,94591,Solano
+Upper Lake,95485,Lake
+Yuba City,95991,Sutter
+Wilmington,90744,Los Angeles
+Lake Los Angeles,93591,Los Angeles
+Royal Oaks,95076,Monterey
+Montecito,93108,Santa Barbara
+Templeton,93465,San Luis Obispo
+Julian,92036,San Diego
+Soledad,93960,Monterey
+Yorba Linda,92887,Orange
+Fresno,93727,Fresno
+La Puente,91744,Los Angeles
+Visalia,93291,Tulare
+Felton,95018,Santa Cruz
+Signal Hill,90755,Los Angeles
+Kensington,94707,Contra Costa
+Johnson Valley,92285,San Bernardino
+Sunnyvale,94087,Santa Clara
+Sugarloaf,92386,San Bernardino
+Clayton,94517,Contra Costa
+Ben Lomond,95005,Santa Cruz
+Anaheim,92802,Orange
+Calimesa,92320,Riverside
+San Jose,95119,Santa Clara
+Westchester,90045,Los Angeles
+Rialto,92377,San Bernardino
+Chula Vista,91915,San Diego
+Downey,90240,Los Angeles
+La Puente,91746,Los Angeles
+Clearlake,95422,Lake
+Vacaville,95688,Solano
+Ojai,93023,Ventura
+Rancho Mission Viejo,92675,Orange
+Fresno,93726,Fresno
+Brisbane,94005,San Mateo
+Sacramento,95838,Sacramento
+Fresno,93703,Fresno
+Fairfield,94533,Solano
+Carpinteria,93013,Santa Barbara
+Los Molinos,96080,Tehama
+Bay Point,94565,Contra Costa
+Valley Glen,91606,Los Angeles
+Hollywood,90038,Los Angeles
+Shasta Lake,96019,Shasta
+Magalia,95954,Butte
+Oak Park,91377,Ventura
+Los Angeles,90033,Los Angeles
+Bel Air,90077,Los Angeles
+Idyllwild,92549,Riverside
+Eastvale,91752,Riverside
+Winton,95388,Merced
+Hollister,95023,San Benito
+Bonsall,92003,San Diego
+Clovis,93619,Fresno
+Salinas,93907,Monterey
+San Jose,95134,Santa Clara
+Boulder Creek,95006,Santa Cruz
+Pinole,94564,Contra Costa
+Running Springs,92382,San Bernardino
+Temple City,91007,Los Angeles
+Daly City,94015,San Mateo
+Agua Dulce,91390,Los Angeles
+San Francisco,94112,San Francisco
+Elk Grove,95758,Sacramento
+Fresno,93723,Fresno
+San Anselmo,94960,Marin
+Frazier Park,93225,Kern
+Santa Ana,92706,Orange
+Bakersfield,93309,Kern
+Pine Valley,91962,San Diego
+Barstow,92311,San Bernardino
+Shandon,93461,San Luis Obispo
+Santa Barbara,93110,Santa Barbara
+Santa Rosa,95409,Sonoma
+View Park,90043,Los Angeles
+San Francisco,94132,San Francisco
+Rancho Cascades,91342,Los Angeles
+Irvine,92604,Los Angeles
+Turlock,95382,Stanislaus
+Soquel,95073,Santa Cruz
+Sacramento,95826,Sacramento
+Yermo,92398,San Bernardino
+Brentwood,94513,Other
+San Jose,95128,Santa Clara
+Thermal,92274,Imperial
+Surfside,90743,Orange
+Bakersfield,93304,Kern
+Moreno Valley,92557,Riverside
+Castaic,91384,Los Angeles
+Stockton,95219,San Joaquin
+Roseville,95747,Placer
+Los Angeles,90018,Los Angeles
+Cobb,95426,Lake
+Ukiah,95482,Mendocino
+Sunset Beach,90742,Orange
+Bakersfield,93308,Kern
+Oakhurst,93644,Madera
+Crockett,94525,Contra Costa
+Pismo Beach,93449,San Luis Obispo
+Helendale,92342,San Bernardino
+San Diego,92173,San Diego
+Salinas,93906,Monterey
+Trabuco Canyon,92679,Orange
+Mountain View,94041,Santa Clara
+Millbrae,94030,San Mateo
+Gridley,95948,Butte
+Palos Verdes Peninsula,90274,Los Angeles
+Madera,93636,Madera
+San Jose,95111,Santa Clara
+Green Valley Lake,92341,San Bernardino
+Hillsborough,94010,San Mateo
+Santa Fe Springs,90670,Los Angeles
+Carmel Valley,93924,Monterey
+Bass Lake,93604,Madera
+Sacramento,95820,Sacramento
+Torrance,90248,Los Angeles
+Santa Clarita,91321,Los Angeles
+Frazier Park,93225,Ventura
+Compton,90221,Los Angeles
+Bermuda Dunes,92203,Riverside
+Fair Oaks,95628,Sacramento
+Los Angeles,91331,Los Angeles
+Stockton,95210,San Joaquin
+Littlerock,93543,Los Angeles
+Encinitas,92007,San Diego
+Chatsworth,91311,Los Angeles
+Van Nuys,91411,Los Angeles
+Arrowbear,92382,San Bernardino
+Palmdale,93553,Los Angeles
+Los Angeles,90063,Los Angeles
+Lebec,93243,Kern
+Glendale,91208,Los Angeles
+Topanga,90290,Los Angeles
+Bakersfield,93301,Kern
+Visalia,93292,Tulare
+Merced,95341,Merced
+Morongo Valley,92256,San Bernardino
+Rancho Santa Fe,92091,San Diego
+Studio City,91607,Los Angeles
+Valley Center,92082,San Diego
+Los Angeles,90029,Los Angeles
+Delhi,95315,Merced
+San Francisco,94118,San Francisco
+Campo,91906,San Diego
+Madera,93638,Madera
+North Fork,93643,Madera
+Spring Valley,91978,San Diego
+Val Verde,91384,Los Angeles
+Clovis,93611,Fresno
+Aguanga,92536,Riverside
+El Monte,91733,Los Angeles
+Warner Springs,92086,San Diego
+Thousand Palms,92276,Riverside
+Arnold,95223,Calaveras
+Fresno,93702,Fresno
+Canyon Country,91350,Los Angeles
+Stockton,95212,San Joaquin
+Lathrop,95330,San Joaquin
+Los Angeles,90057,Los Angeles
+San Bernardino,92411,San Bernardino
+Twin Peaks,92391,San Bernardino
+Blue Jay,92317,San Bernardino
+Piru,93040,Ventura
+Sonora,95370,Tuolumne
+Shafter,93263,Kern
+Sacramento,95829,Sacramento
+Ahwahnee,93601,Mariposa
+Villa Park,92861,Orange
+Tracy,95304,San Joaquin
+Gardena,90248,Los Angeles
+Canoga Park,91304,Los Angeles
+Los Angeles,91352,Los Angeles
+Sacramento,95821,Sacramento
+San Mateo,94404,San Mateo
+Valencia,91381,Los Angeles
+Newberry Springs,92365,San Bernardino
+Tarzana,91335,Los Angeles
+Cedar Glen,92321,San Bernardino
+Mount Shasta,96067,Siskiyou
+Fresno,93720,Fresno
+Fresno,93705,Fresno
+San Jose,95138,Santa Clara
+Carson,90746,Los Angeles
+Corona,92882,San Bernardino
+Lamont,93241,Kern
+Los Angeles,91601,Los Angeles
+Ridgecrest,93555,Kern
+Sacramento,95824,Sacramento
+Lake Hughes,93532,Los Angeles
+Alta Loma,91701,San Bernardino
+Fairfield,94534,Solano
+Creston,93432,San Luis Obispo
+La Habra Heights,90631,Los Angeles
+Mendocino,95460,Mendocino
+Richmond,94806,Contra Costa
+Sacramento,95831,Sacramento
+Menifee,92587,Riverside
+Hawaiian Gardens,90716,Los Angeles
+Los Banos,93635,Merced
+Oakdale,95361,Stanislaus
+Brentwood,90049,Los Angeles
+Clovis,93612,Fresno
+Tujunga,91042,Other
+San Francisco,94114,San Francisco
+San Bernardino,92408,San Bernardino
+East Los Angeles,90022,Los Angeles
+Westwood,90024,Los Angeles
+Corona Del Mar,92660,Orange
+Kensington,94708,Contra Costa
+Gardena,90245,Los Angeles
+American Canyon,94503,Napa
+Porter Ranch,91311,Los Angeles
+Hamilton City,95951,Glenn
+Thousand Oaks,91361,Ventura
+Hidden Valley Lake,95467,Lake
+Marysville,95901,Yuba
+Bakersfield,93313,Kern
+Los Angeles,90061,Los Angeles
+Eastvale,91752,San Bernardino
+Toluca Lake,91601,Los Angeles
+Cardiff By The Sea,92007,San Diego
+San Bernardino,92346,San Bernardino
+West Covina,91762,Los Angeles
+San Miguel,93451,San Luis Obispo
+San Francisco,94121,San Francisco
+Dixon,95620,Solano
+Visalia,93277,Tulare
+Eagle Rock,90065,Los Angeles
+Diamond Bar,91789,Los Angeles
+Forest Ranch,95942,Butte
+Oceano,93445,San Luis Obispo
+Sacramento,95833,Sacramento
+Nuevo,92567,Riverside
+Los Molinos,96055,Tehama
+Descanso,91916,San Diego
+Springville,93265,Tulare
+Fillmore,93015,Ventura
+Santa Clarita,91350,Los Angeles
+Lemoore,93245,Kings
+Twentynine Palms,92277,San Bernardino
+Napa,94559,Napa
+Prunedale,93907,Monterey
+San Francisco,94116,San Francisco
+Stockton,95204,San Joaquin
+East Palo Alto,94303,San Mateo
+San Miguel,93451,Monterey
+Bell,90201,Los Angeles
+Moss Beach,94038,San Mateo
+Silverado,92676,Orange
+Eastvale,92880,San Bernardino
+Tracy,95377,San Joaquin
+Montrose,91020,Los Angeles
+Sherwood Forest,91325,Los Angeles
+Roseville,95661,Placer
+Cottonwood,96022,Tehama
+Bakersfield,93305,Kern
+El Granada,94019,San Mateo
+Squaw Valley,93675,Fresno
+Fresno,93722,Fresno
+Novato,94947,Marin
+Needles,92363,San Bernardino
+Roseville,95678,Placer
+Garden Grove,92845,Los Angeles
+Bradbury,91008,Los Angeles
+Redwood City,94065,San Mateo
+Dos Palos,93620,Merced
+Silverado Canyon,92676,Orange
+Port Costa,94569,Contra Costa
+Madera,93637,Madera
+Modesto,95357,Stanislaus
+Stockton,95207,San Joaquin
+Irvine,92624,Orange
+Willows,95988,Glenn
+Woodland,95695,Yolo
+Culver City,90066,Los Angeles
+Lodi,95240,San Joaquin
+Yosemite,95389,Mariposa
+Wrightwood,92397,Los Angeles
+Big Bear,92315,San Bernardino
+Sacramento,95832,Sacramento
+Borrego Springs,92004,San Diego
+Stockton,95203,San Joaquin
+Byron,94514,Contra Costa
+Mountain House,95391,San Joaquin
+Sacramento,95834,Sacramento
+Corralitos,95076,Santa Cruz
+San Jose,95139,Santa Clara
+Tres Pinos,95075,San Benito
+Bethel Island,94511,Contra Costa
+Huntington Beach,90742,Orange
+Inglewood,90304,Los Angeles
+Lincoln,95648,Placer
+Corning,96021,Tehama
+Stockton,95205,San Joaquin
+Cedarpines Park,92322,San Bernardino
+Stockton,95206,San Joaquin
+Durham,95938,Butte
+Rimforest,92378,San Bernardino
+Rohnert Park,94928,Sonoma
+Thermal,92274,Riverside
+La Selva Beach,95076,Santa Cruz
+Ahwahnee,93601,Madera
+Bell Canyon,91307,Ventura
+Carmel Valley,93923,Monterey
+Forest Falls,92339,San Bernardino
+Temecula,92562,Riverside
+Quartz Hill,93536,Los Angeles
+Cudahy,90201,Los Angeles
+Guadalupe,93434,Santa Barbara
+Fresno,93706,Fresno
+Solvang,93463,Santa Barbara
+Live Oak,95953,Sutter
+Santa Rosa,93012,Ventura
+Modesto,95351,Stanislaus
+Los Angeles,90023,Los Angeles
+Santa Ynez,93460,Santa Barbara
+Folsom,95630,Sacramento
+Plumas Lake,95961,Yuba
+La Jolla,92122,San Diego
+Angelus Oaks,92305,San Bernardino
+Hawthorne,90304,Los Angeles
+Anderson,96007,Shasta
+Laguna Hills,92656,Orange
+Lake Arrowhead,92317,San Bernardino
+Artois,95913,Glenn
+Burbank,91504,Lake
+Moss Landing,95039,Monterey
+Other,92109,San Diego
+Richmond,94805,Contra Costa
+Redding,96001,Shasta
+Hilmar,95324,Merced
+Hemet,92548,Riverside
+Patterson,95363,Stanislaus
+Cayucos,93430,San Luis Obispo
+Rancho Cucamonga,91730,Los Angeles
+Los Angeles,90405,Los Angeles
+Ontario,91761,Los Angeles
+Modesto,95350,Stanislaus
+Sacramento,95835,Sacramento
+Somis,93066,Ventura
+Los Gatos,95033,Santa Cruz
+Montara,94037,San Mateo
+Lake Arrowhead,92378,San Bernardino
+Guerneville,95446,Sonoma
+Santa Margarita,93453,San Luis Obispo
+Isleton,95641,Sacramento
+San Diego,91945,San Diego
+Newman,95360,Stanislaus
+Fish Camp,93623,Mariposa
+Byron,94505,Contra Costa
+Jurupa Valley,92509,San Bernardino
+Fairfax,94930,Marin
+Sacramento,95825,Sacramento
+Acton,93510,Los Angeles
+Woodside,94062,San Mateo
+Red Bluff,96080,Tehama
+Comptche,95427,Mendocino
+Goleta,93117,Santa Barbara
+Riverside,92522,Riverside
+Livermore,94551,Contra Costa
+Vallejo,94589,Solano
+Gerber,96035,Tehama
+Porterville,93257,Tulare
+Newberry Springs,92356,San Bernardino
+Pioneertown,92268,San Bernardino
+Ceres,95307,Stanislaus
+Westlake Village,91362,Los Angeles
+Dulzura,91917,San Diego
+San Rafael,94903,Marin
+Brawley,92227,Imperial
+Grass Valley,95945,Nevada
+Crestline,92322,San Bernardino
+Truckee,96161,Nevada
+Corcoran,93212,Kings
+Big River,92242,San Bernardino
+Ontario,92336,San Bernardino
+Lodi,95242,San Joaquin
+Carmichael,95608,Sacramento
+Palmdale,93591,Los Angeles
+Auburn,95602,Placer
+Fort Bragg,95437,Mendocino
+Rocklin,95677,Placer
+Avila Beach,93424,San Luis Obispo
+Quincy,95971,Plumas
+Fresno,93737,Fresno
+Cottonwood,96022,Shasta
+San Diego,91902,San Diego
+Huntington Park,90255,Other
+City Terrace,90063,Los Angeles
+Stockton,95215,San Joaquin
+Lake Los Angeles,93535,Los Angeles
+Pomona,91766,San Bernardino
+Cobb,95461,Lake
+West Sacramento,95605,Yolo
+Irvine,92660,Orange
+Fresno,93710,Fresno
+Freedom,95019,Santa Cruz
+Vandenberg Village,93436,Santa Barbara
+Lake Mathews,92570,Riverside
+Ranchita,92066,San Diego
+Avalon,90704,Los Angeles
+Eureka,95503,Humboldt
+Lake Elizabeth,93532,Los Angeles
+Jacumba,91934,San Diego
+Redding,96003,Shasta
+Woodlake,93286,Tulare
+Lake Isabella,93240,Kern
+Hesperia,92395,San Bernardino
+Palomar Mountain,92060,San Diego
+Adelanto,92886,San Bernardino
+Biggs,95917,Butte
+Lincoln Heights,90031,Los Angeles
+Grand Terrace,92324,San Bernardino
+Wildomar,92530,Riverside
+Lytle Creek,92358,San Bernardino
+Redwood Valley,95470,Mendocino
+East Los Angeles,90063,Los Angeles
+Bangor,95914,Butte
+Sacramento,95841,Sacramento
+Hidden Hills,91302,Los Angeles
+Lower Lake,95457,Lake
+Auberry,93602,Fresno
+West Sacramento,95691,Yolo
+Stanford,94305,Santa Clara
+Wildomar,92584,Riverside
+San Francisco,94122,San Francisco
+Imperial,92251,Imperial
+Coachella,92253,Riverside
+Big Sur,93920,Monterey
+Lucerne,95458,Lake
+Fresno,93704,Fresno
+Oak Hills,92405,San Bernardino
+Littlerock,93550,Los Angeles
+Sonoma,95476,Sonoma
+Maywood,90270,Los Angeles
+Livingston,95334,Merced
+Sacramento,95817,Sacramento
+Atascadero,93446,San Luis Obispo
+Lake Sherwood,91361,Ventura
+Rancho Cucamonga,91764,San Bernardino
+Palo Alto,94303,Santa Clara
+Tarzana,91316,Los Angeles
+Mt Baldy,91759,San Bernardino
+Upland,91748,San Bernardino
+Ortega Mountain,92562,Riverside
+Palo Alto,94304,Santa Clara
+Forestville,95436,Sonoma
+Vallejo,94592,Solano
+Wishon,93669,Madera
+San Diego,92121,San Diego
+Mecca,92254,Riverside
+Clairemont Mesa,92117,San Diego
+Linda Vista,92111,San Diego
+Taft,93268,Kern
+View Park,90008,Los Angeles
+Danville,94588,Contra Costa
+Windsor Hills,90043,Los Angeles
+Windsor,95492,Sonoma
+Granada Hills,91342,Los Angeles
+Menifee,92548,Riverside
+Los Gatos,95033,Santa Clara
+Fresno,93701,Fresno
+Wasco,93280,Kern
+Santa Barbara,93111,Santa Barbara
+Placerville,95667,El Dorado
+Gustine,95322,Merced
+Pasadena,91108,Los Angeles
+Willits,95490,Mendocino
+Petaluma,94954,Sonoma
+La Canada Flintridge,91011,Other
+Modesto,95354,Stanislaus
+Escalon,95320,San Joaquin
+Caruthers,93609,Fresno
+Campbell,95128,Santa Clara
+North Highlands,95660,Sacramento
+Mar Vista,90066,Los Angeles
+Corona,92880,Riverside
+Los Alamos,93440,Santa Barbara
+Valley Village,91601,Los Angeles
+Gonzales,93926,Monterey
+Little River,95456,Mendocino
+Mount Laguna,91948,San Diego
+Aromas,95004,San Benito
+Catheys Valley,95306,Mariposa
+Denair,95316,Stanislaus
+Livermore,94550,Contra Costa
+Los Angeles,91042,Los Angeles
+Point Loma,92106,San Diego
+Elk Grove,95757,Sacramento
+Los Angeles,91306,Los Angeles
+Perris,92595,Riverside
+Linden,95236,San Joaquin
+Pomona,91767,San Bernardino
+Sacramento,95818,Sacramento
+Yucaipa,92339,San Bernardino
+Canoga Park,91306,Los Angeles
+Davis,95616,Yolo
+Mojave,93501,Kern
+Nevada City,95959,Nevada
+San Juan Bautista,95045,San Benito
+Butte Valley,95965,Butte
+Woodland,95776,Yolo
+Pine Mountain Club,93225,Kern
+Valley Center,92061,San Diego
+Joshua Tree,92284,San Bernardino
+Oregon House,95962,Yuba
+Rialto,20205,San Bernardino
+Tulare,93274,Tulare
+Farmersville,93223,Tulare
+Butte Meadows,95942,Butte
+San Francisco,94127,San Francisco
+Wilton,95693,Sacramento
+Hollywood,90028,Los Angeles
+Devore,92407,San Bernardino
+Arrowbear,92308,San Bernardino
+Torrance,90277,Los Angeles
+Kerman,93630,Fresno
+Ripon,95366,San Joaquin
+Surfside,90740,Orange
+East Los Angeles,90023,Los Angeles
+Scripps Miramar,92131,San Diego
+Mission Viejo,92688,Orange
+Santa Clarita,91390,Los Angeles
+San Diego,91977,San Diego
+Weed,96094,Siskiyou
+Hornbrook,96044,Siskiyou
+Winchester,92530,Riverside
+Albion,95410,Mendocino
+Palm Springs,92258,Riverside
+Edwards,93523,Kern
+Alta Loma,91737,San Bernardino
+Los Angeles,90744,Los Angeles
+Citrus Heights,95610,Sacramento
+Fawnskin,92333,San Bernardino
+Bradley,93426,Monterey
+Rancho Cordova,95670,Sacramento
+Malibu,90265,Ventura
+Granada Hills,91343,Los Angeles
+Perris,92590,Riverside
+Thousand Oaks,93021,Ventura
+Santa Ysabel,92070,San Diego
+Riverbank,95367,Stanislaus
+Los Angeles,90019,Other
+Laguna Beach,92629,Orange
+Pacoima,91739,Los Angeles
+Los Angeles,91326,Los Angeles
+La Mesa,91977,San Diego
+Tustin,92705,Orange
+Mt Baldy,91759,Los Angeles
+Maxwell,95955,Colusa
+Los Angeles,91040,Los Angeles
+Modesto,95356,Stanislaus
+Berry Creek,95973,Butte
+Le Grand,95333,Merced
+Yuba City,95993,Sutter
+Merced,93635,Merced
+Elk Grove,95624,Sacramento
+Groveland,95321,Tuolumne
+San Andreas,95249,Calaveras
+Modesto,95358,Stanislaus
+Pauma Valley,92061,San Diego
+Arcadia,91106,Los Angeles
+Palermo,95968,Butte
+San Diego,92015,San Diego
+Other,32909,Other
+Riverside,92517,Riverside
+Weaverville,96093,Trinity
+Glen Ellen,95442,Sonoma
+Juniper Hills,93543,Los Angeles
+Cypress,90630,Los Angeles
+Wofford Heights,93285,Kern
+Knightsen,94548,Contra Costa
+Lake Arrowhead,92391,San Bernardino
+Pescadero,94060,San Mateo
+Chester,96020,Plumas
+Pine Cove,92549,Riverside
+Nuevo/Lakeview,92567,Riverside
+San Gabriel,91766,Los Angeles
+Riverdale,93656,Fresno
+Van Nuys,91406,Other
+Reedley,93654,Fresno
+California City,93501,Kern
+Logan Heights,92113,San Diego
+Corning,90621,Tehama
+Bangor,95901,Butte
+Oro Grande,92368,San Bernardino
+Boulevard,91905,San Diego
+El Mirage,92301,San Bernardino
+Trinity Center,96091,Trinity
+Venice,90292,Los Angeles
+Ontario,91766,San Bernardino
+Los Angeles,91304,Los Angeles
+Phelan,92372,San Bernardino
+San Rafael,94901,Marin
+Lockwood,93932,Monterey
+Douglas City,96024,Trinity
+Green Valley,91390,Los Angeles
+Orangevale,95662,Sacramento
+Los Angeles,90058,Los Angeles
+Chualar,93925,Monterey
+Nord,95973,Butte
+Ortega Mountain,92563,Riverside
+Sanger,93657,Fresno
+Maricopa,93252,Kern
+Hollywood,90068,Los Angeles
+Redondo Beach,90278,Other
+Leona Valley,91350,Los Angeles
+Unincorporated,92019,San Diego
+Diablo,94528,Contra Costa
+Mission Hills (San Fernando),91345,Los Angeles
+Sun City,92586,Riverside
+Highland,92405,San Bernardino
+Altadena,91104,Los Angeles
+Salida,95368,Stanislaus
+Petaluma,94952,Sonoma
+Potrero,91963,San Diego
+Aliso Viejo,92694,Orange
+Los Angeles,91325,Los Angeles
+Cloverdale,95425,Sonoma
+Orange,92651,Orange
+San Francisco,94133,San Francisco
+Westwood - Century City,90024,Los Angeles
+Artesia,90703,Los Angeles
+Byron,94514,Other
+University City,92122,San Diego
+Pomona,91768,San Bernardino
+Echo Park,90026,Los Angeles
+Rancho Murieta,95683,Sacramento
+Lucerne Valley,92307,San Bernardino
+Outside Area (Outside Ca),37604,Other State
+Citrus Heights,95621,Sacramento
+Northridge,91335,Los Angeles
+Sacramento,95822,Sacramento
+Walnut Park,91789,Los Angeles
+Lake Arrowhead,92325,San Bernardino
+Sacramento,95815,Sacramento
+Colusa,95932,Colusa
+Yucaipa,92399,Riverside
+La Mirada,90638,Orange
+Keyes,95328,Stanislaus
+Snelling,95369,Merced
+West Toluca Lake,91602,Los Angeles
+Temple City,91750,Los Angeles
+Yucca Valley,92285,San Bernardino
+Mount Washington,90065,Los Angeles
+Rancho Bernardo (San Diego),92128,San Diego
+Santa Rosa,95401,Sonoma
+Cypress,90720,Orange
+East San Diego,92105,San Diego
+Victorville,92239,San Bernardino
+Tracy,95391,San Joaquin
+Hollywood,90029,Los Angeles
+Escondido,92069,San Diego
+Santa Rosa,95404,Sonoma
+Martinez,94801,Contra Costa
+Sacramento,95864,Sacramento
+Arvin,93203,Kern
+Beaumont,92320,Riverside
+Downey,90241,Other
+Colton,92324,Riverside
+Fresno,93675,Fresno
+Irwindale,91706,Los Angeles
+Anaheim,92831,Orange
+Silver Lake,90026,Los Angeles
+Mira Mesa,92126,San Diego
+Morro Bay,93422,San Luis Obispo
+Santa Barbara,93103,Santa Barbara
+Twin Peaks,92325,San Bernardino
+Unincorporated,93536,Los Angeles
+Clovis,93730,Fresno
+Hughson,95326,Stanislaus
+Paso Robles,93447,San Luis Obispo
+Firebaugh,93622,Fresno
+Highland,92410,San Bernardino
+West Hills,91304,Ventura
+Apple Valley,92345,San Bernardino
+Outside Area (Outside U.S.) Foreign Country,22880,Foreign Country
+Outside Area (Outside Ca),22870,Other State
+Newhall,91350,Los Angeles
+Victorville,92325,San Bernardino
+Rancho Cordova,95742,Sacramento
+Shaver Lake,93664,Fresno
+Orange,92667,Orange
+Alpine,92019,San Diego
+Westminster,92583,Orange
+Browns Valley,95918,Yuba
+Littlerock,90018,Los Angeles
+San Bernardino,92386,San Bernardino
+Friant,93626,Fresno
+La Honda,94020,San Mateo
+New Cuyama,93254,Santa Barbara
+Santa Barbara,93109,Santa Barbara
+Rainbow,92028,San Diego
+Big Bear Lake,92314,San Bernardino
+Apple Valley,92392,San Bernardino
+Sage,92592,Riverside
+Finley,95435,Lake
+Santa Clarita,91387,Los Angeles
+Somerset,95684,El Dorado
+Phelan,92301,San Bernardino
+Calistoga,94515,Napa
+Lake Arrowhead,92532,San Bernardino
+Riverside,92536,Riverside
+Santa Barbara,93117,Santa Barbara
+Prather,93651,Fresno
+Lake Elsinore,92570,Riverside
+Costa Mesa,92647,Orange
+Imperial Beach,92025,San Diego
+Anaheim,90041,Orange
+Ontario,91709,San Bernardino
+Commerce,90022,Los Angeles
+Northridge,91326,Los Angeles
+Silver Lake,90039,Los Angeles
+Lawndale,90250,Los Angeles
+Manhattan Beach,90260,Los Angeles
+Newport Beach,92625,Orange
+La Quinta,92234,Riverside
+Reseda,91355,Los Angeles
+Hemet,92454,Riverside
+Fontana,92354,San Bernardino
+Montebello,90660,Los Angeles
+Santa Rosa,95403,Sonoma
+Lake Elsinore,92592,Riverside
+Point Loma,92107,San Diego
+Sacramento,95827,Sacramento
+Port Hueneme,93035,Ventura
+Avenal,93204,Kings
+Rancho Penasquitos,92129,San Diego
+Los Altos Hills,94024,Santa Clara
+Mission Hills,91345,Los Angeles
+Riverside,92571,Riverside
+Santa Ana,92705,Riverside
+Pioneer,95666,Amador
+Vallejo,94549,Solano
+Valley Glen,91405,Los Angeles
+Valley Springs,95252,Calaveras
+Murrieta,92592,Riverside
+Los Angeles,91406,Los Angeles
+Modjeska Canyon,92676,Orange
+Fowler,93625,Fresno
+Fullerton,92870,Orange
+Kennedy Meadows,93527,Tulare
+Richmond,94840,Contra Costa
+Van Nuys,91306,Los Angeles
+Outside Area (Outside Ca),89139,Nevada
+San Diego,92020,San Diego
+Kentfield,94904,Marin
+Redding,96002,Shasta
+Romoland,92585,Riverside
+Chatsworth,91311,Ventura
+Bear Valley Springs,93561,Kern
+Dinuba,93618,Tulare
+Friant,93626,Madera
+San Diego,92027,San Diego
+Carnelian Bay,96140,Placer
+Los Angeles,91342,Los Angeles
+Sacramento,94838,Sacramento
+Jamestown,95327,Tuolumne
+Agua Dulce,91350,Los Angeles
+Hemet,92583,Riverside
+Davis,95618,Yolo
+Moreno Valley,92251,Riverside
+Auburn,95603,Placer
+Pinon Hills,92371,San Bernardino
+La Grange,95329,Mariposa
+Corte Madera,94925,Marin
+Cameron Park,95682,El Dorado
+Santa Clarita,91351,Los Angeles
+Calimesa,92373,Riverside
+Gualala,95445,Mendocino
+Westwood,90064,Los Angeles
+Richvale,95974,Butte
+Silver Lake,90027,Los Angeles
+Montclair,91786,San Bernardino
+Desert Hot Springs,92440,Riverside
+Lockwood,93426,Monterey
+Littlerock,90063,Los Angeles
+Lake Elsinore,92507,Riverside
+Victorville,92371,San Bernardino
+Silverado Canyon,92679,Orange
+Reseda Ranch,91335,Los Angeles
+Sacramento,95842,Sacramento
+Riverside,92567,Riverside
+Lakeport,95451,Lake
+Cedar Glen,92407,San Bernardino
+Midpines,95345,Mariposa
+Redlands,92373,Riverside
+Los Alamitos,90815,Orange
+Pollock Pines,95726,El Dorado
+Chino Hills,91709,Los Angeles
+Wheatland,95692,Yuba
+Palm Springs,92240,Riverside
+Whitewater,92223,Riverside
+Manchester,95459,Mendocino
+Ortega Mountain,92675,Riverside
+El Mirage,92371,San Bernardino
+Mountain Home Village,92359,San Bernardino
+Angels Camp,95222,Calaveras
+Woodcrest,92570,Riverside
+Lake Isabella,92345,Kern
+Oak Hills,92345,San Bernardino
+Hollywood,90027,Los Angeles
+Norwalk,90650,Orange
+Mill Valley,94941,Marin
+San Diego,91941,San Diego
+Beaumont,92220,Riverside
+Los Angeles,91345,Los Angeles
+Chino,91710,Riverside
+Hawthorne,90260,Los Angeles
+Los Angeles,90292,Los Angeles
+Del Rey Oaks,93940,Monterey
+Los Alamitos,90808,Orange
+Unincorporated,92127,San Diego
+Lake Los Angeles,90019,Los Angeles
+Spring Valley,92117,San Diego
+San Diego,91942,San Diego
+Pacifica,94122,San Mateo
+Orcutt,93455,Santa Barbara
+Exeter,93221,Tulare
+Winchester,92569,Riverside
+Riverside,92561,Riverside
+Riverside,92570,Riverside
+Pasadena,91105,Other
+Tracy,94577,San Joaquin
+Olivehurst,95961,Yuba
+Sacramento,95381,Sacramento
+Orland,95965,Glenn
+Newcastle,95658,Placer
+Corona,88888,Other
+Cobb,95451,Lake
+Canyon Country,91390,Los Angeles
+Redlands,92359,San Bernardino
+Twain Harte,95383,Tuolumne
+Rancho Cucamonga,91786,San Bernardino
+Selma,93662,Fresno
+Oak Hills,92371,San Bernardino
+Compton,90059,Los Angeles
+Santa Monica,90403,Other
+Yucaipa,92329,San Bernardino
+Woodcrest,92503,Riverside
+Sutter,95982,Sutter
+Wawona,95389,Mariposa
+Holtville,92250,Imperial
+Castroville,95012,Monterey
+Rancho Cucamonga,92399,San Bernardino
+Santa Rosa,95407,Sonoma
+Highland,92404,San Bernardino
+Mentone,92374,San Bernardino
+Montebello,90640,Other
+Bakersfield,93215,Kern
+Fawnskin,92314,San Bernardino
+Anaheim,92618,Orange
+Newport Beach,92657,Orange
+North Tustin,92780,Orange
+Janesville,96114,Lassen
+Brownsville,95919,Yuba
+Paso Robles,93466,San Luis Obispo
+Rancho Palos Verdes,90275,Other
+Valyermo,93563,Los Angeles
+Big Bear,92386,San Bernardino
+Crestline,92395,San Bernardino
+La Grange,95329,Stanislaus
+Diamond Springs,95619,El Dorado
+Millville,96962,Shasta
+Sage,92544,Riverside
+Lake Arrowhead,92321,San Bernardino
+Stevinson,95374,Merced
+Greenville,95947,Plumas
+Lake Almanor West,96020,Plumas
+Otay Mesa,92154,San Diego
+Los Angeles,90230,Los Angeles
+Huntington Beach,92649,Los Angeles
+Escondido,92029,Riverside
+Simi Valley,93063,Los Angeles
+Bishop,93514,Inyo
+Galt,95632,Sacramento
+Azusa,91107,Los Angeles
+Greenbrae,94904,Marin
+Garden Grove,92630,Orange
+Kernville,93238,Kern
+Los Angeles,90650,Los Angeles
+St Helena,94574,Napa
+Arrowbear,92314,San Bernardino
+Llano,93591,Los Angeles
+Los Angeles,90040,Los Angeles
+Norwalk,90605,Los Angeles
+Los Angeles,91504,Los Angeles
+Canoga Park,91304,Ventura
+Sunset Beach,92649,Orange
+Newbury Park,91320,Los Angeles
+El Cajon,91978,San Diego
+Ontario,20536,San Bernardino
+San Diego,91915,San Diego
+San Carlos,92119,San Diego
+Mission Viejo,92694,Orange
+Other,86404,Other State
+Trabuco Canyon,92676,Orange
+Morongo Valley,92256,Riverside
+Studio City,91406,Los Angeles
+Pismo Beach,93446,San Luis Obispo
+Ontario,91761,Riverside
+Toluca Lake,91505,Los Angeles
+San Diego,92009,San Diego
+Rosemead,91776,Los Angeles
+West Hollywood,90068,Los Angeles
+Hemet,93544,Riverside
+San Diego,92007,San Diego
+Yountville,94599,Napa
+Hawthorne,90250,Other
+Lancaster,93543,Los Angeles
+Mount Hermon,95041,Santa Cruz
+Greenwood,95635,El Dorado
+San Diego,92067,San Diego
+Santa Clarita,91355,Los Angeles
+Los Angeles,90222,Los Angeles
+Laguna Niguel,92667,Orange
+Fort Jones,96032,Siskiyou
+Other,95493,Lake
+Tujunga,91402,Los Angeles
+Lewiston,96052,Trinity
+Mariposa,95345,Mariposa
+Landers,92284,San Bernardino
+Sherman Oaks,91607,Los Angeles
+East Los Angeles,90033,Los Angeles
+Sierra Madre,91024,Other
+Penn Valley,95946,Nevada
+Palm Springs,92264,Los Angeles
+Nipomo,93454,San Luis Obispo
+Pacifica,94404,San Mateo
+Beverly Hills,90212,Other
+Other,90032,Los Angeles
+Cazadero,95421,Sonoma
+Woodland Hills,90077,Los Angeles
+Winterhaven,92283,Imperial
+Pinon Hills,92397,San Bernardino
+Perris,92517,Riverside
+Bakersfield,93285,Kern
+Juniper Hills,93553,Los Angeles
+Mendocino,95460,Other
+Lancaster,93591,Los Angeles
+Yucca Valley,92884,San Bernardino
+San Marino,91775,Los Angeles
+Woodland Hills,91307,Los Angeles
+Novato,94949,Marin
+Van Nuys,91402,Los Angeles
+North Park (San Diego),92104,San Diego
+Elk,95432,Mendocino
+Hollywood,90036,Los Angeles
+Ocean Beach (San Diego),92107,San Diego
+San Diego,92024,San Diego
+Empire,95319,Stanislaus
+Fontana,92377,San Bernardino
+Esparto,95627,Yolo
+Waterford,95386,Stanislaus
+Los Angeles,91776,Los Angeles
+Rancho Bernardo (San Diego),92127,San Diego
+Canyon Country,91321,Los Angeles
+Riverside,90605,Riverside
+Walnut Grove,95690,Sacramento
+Yucca Valley,92284,Riverside
+Helendale,92324,San Bernardino
+Pasadena,91030,Los Angeles
+West Covina,91710,Los Angeles
+Montclair,91762,San Bernardino
+Rialto,92316,San Bernardino
+French Camp,95231,San Joaquin
+Pasadena,91001,Los Angeles
+Oakley,94513,Contra Costa
+Yucca Valley,92252,San Bernardino
+Los Angeles,90210,Los Angeles
+Phelan,92392,San Bernardino
+Alta Loma,91730,San Bernardino
+Clearlake,95457,Lake
+Glenn,95943,Glenn
+Los Angeles,90291,Los Angeles
+Acton,93550,Los Angeles
+Alamo,94506,Contra Costa
+Los Angeles,91405,Los Angeles
+Planada,95365,Merced
+Los Angeles,91403,Los Angeles
+Rackerby,95972,Yuba
+Montclair,92563,San Bernardino
+Upper Lake,95493,Lake
+Victorville,91710,San Bernardino
+Bel Air,90049,Los Angeles
+Westwood - Century City,90025,Los Angeles
+Smartsville,95977,Yuba
+Palmdale,93534,Los Angeles
+Brentwood,94523,Contra Costa
+Indio,92210,Riverside
+Johnson Valley,92356,San Bernardino
+Los Angeles,90026,Other
+Middletown,95426,Lake
+California City,94587,Kern
+Outside Area (Outside U.S.) Foreign Country,22765,Foreign Country
+Magalia,95965,Butte
+Landers,92252,San Bernardino
